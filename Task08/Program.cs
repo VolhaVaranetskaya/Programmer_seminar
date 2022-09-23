@@ -8,7 +8,7 @@ Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int counter = 2;
 
-while (counter < number)
+while (counter <= number)
 {
     Console.WriteLine(counter);
     counter = counter + 2;
