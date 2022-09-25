@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Programmer_seminar\Task16\bin\Debug\net6.0\Task16.exe
+C:\Users\User\Desktop\Programmer_seminar\Task16\bin\Debug\net6.0\Task16.deps.json
+C:\Users\User\Desktop\Programmer_seminar\Task16\bin\Debug\net6.0\Task16.runtimeconfig.json
+C:\Users\User\Desktop\Programmer_seminar\Task16\bin\Debug\net6.0\Task16.dll
+C:\Users\User\Desktop\Programmer_seminar\Task16\bin\Debug\net6.0\Task16.pdb
+C:\Users\User\Desktop\Programmer_seminar\Task16\obj\Debug\net6.0\Task16.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Programmer_seminar\Task16\obj\Debug\net6.0\Task16.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Programmer_seminar\Task16\obj\Debug\net6.0\Task16.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Programmer_seminar\Task16\obj\Debug\net6.0\Task16.AssemblyInfo.cs
+C:\Users\User\Desktop\Programmer_seminar\Task16\obj\Debug\net6.0\Task16.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Programmer_seminar\Task16\obj\Debug\net6.0\Task16.dll
+C:\Users\User\Desktop\Programmer_seminar\Task16\obj\Debug\net6.0\refint\Task16.dll
+C:\Users\User\Desktop\Programmer_seminar\Task16\obj\Debug\net6.0\Task16.pdb
+C:\Users\User\Desktop\Programmer_seminar\Task16\obj\Debug\net6.0\Task16.genruntimeconfig.cache
+C:\Users\User\Desktop\Programmer_seminar\Task16\obj\Debug\net6.0\ref\Task16.dll
