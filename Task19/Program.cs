@@ -6,8 +6,7 @@
 
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-int Palindrom = (number);
-{
+
 if(number > 999 && number < 100000)
     {
         int Digit1 = number / 10000;
@@ -18,4 +17,3 @@ if(number > 999 && number < 100000)
         else Console.WriteLine($"Число {number} не является палиндромом");
     }
 else Console.WriteLine("Введено неверное число");
-}
