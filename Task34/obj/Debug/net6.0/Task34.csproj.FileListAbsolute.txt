@@ -3,3 +3,13 @@ C:\Users\User\Desktop\Programmer_seminar\Task34\obj\Debug\net6.0\Task34.Generate
 C:\Users\User\Desktop\Programmer_seminar\Task34\obj\Debug\net6.0\Task34.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\Programmer_seminar\Task34\obj\Debug\net6.0\Task34.AssemblyInfo.cs
 C:\Users\User\Desktop\Programmer_seminar\Task34\obj\Debug\net6.0\Task34.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Programmer_seminar\Task34\bin\Debug\net6.0\Task34.exe
+C:\Users\User\Desktop\Programmer_seminar\Task34\bin\Debug\net6.0\Task34.deps.json
+C:\Users\User\Desktop\Programmer_seminar\Task34\bin\Debug\net6.0\Task34.runtimeconfig.json
+C:\Users\User\Desktop\Programmer_seminar\Task34\bin\Debug\net6.0\Task34.dll
+C:\Users\User\Desktop\Programmer_seminar\Task34\bin\Debug\net6.0\Task34.pdb
+C:\Users\User\Desktop\Programmer_seminar\Task34\obj\Debug\net6.0\Task34.dll
+C:\Users\User\Desktop\Programmer_seminar\Task34\obj\Debug\net6.0\refint\Task34.dll
+C:\Users\User\Desktop\Programmer_seminar\Task34\obj\Debug\net6.0\Task34.pdb
+C:\Users\User\Desktop\Programmer_seminar\Task34\obj\Debug\net6.0\Task34.genruntimeconfig.cache
+C:\Users\User\Desktop\Programmer_seminar\Task34\obj\Debug\net6.0\ref\Task34.dll

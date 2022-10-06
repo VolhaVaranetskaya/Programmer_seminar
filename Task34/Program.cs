@@ -1,10 +1,10 @@
 ﻿// Задайте массив заполненный случайными положительными трёхзначными числами. 
-// На
+// Напишите програму, котопая покажет кол-во четных чисел в массиве.
 // [345, 897, 568, 234] -> 2
 
 int[] CreateArrayRndInt(int size, int min, int max)
 {
-    int[]array = new int[size];
+    int[] array = new int[size];
     var rnd = new Random();
     for (int i = 0; i < size; i++)
     {
@@ -18,23 +18,22 @@ void PrintArray(int[] array)
     Console.Write("[");
     for (int i = 0; i < array.Length; i++)
     {
-        if(i < array.Length - 1) Console.Write($"{array[i]} ");
+        if (i < array.Length - 1) Console.Write($"{array[i]} ");
         else Console.Write($"{array[i]}");
     }
     Console.Write("]");
 }
-int[] AmountHonestNumb (int[] array, int min, int max)
+int AmountHonestNumb(int[] array)
 {
     int counter = default;
     for (int i = 0; i < array.Length; i++)
     {
-        if(array[i] % 2 == 0);
-        counter++;
+        if (array[i] % 2 == 0) counter ++;
     }
     return counter;
 }
-int[] arr = CreateArrayRndInt(10, 100, 999);
+int[] arr = CreateArrayRndInt(20, 0, 50);
 PrintArray(arr);
-int[] amountHonestNumb = AmountHonestNumb (arr, 100, 1000);
-Console.WriteLine(amountHonestNumb);
+int amountHonestNumb = AmountHonestNumb(arr);
+Console.WriteLine($"Количество четных числе в массиве => {amountHonestNumb}");
 
