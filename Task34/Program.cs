@@ -23,7 +23,7 @@ void PrintArray(int[] array)
     }
     Console.Write("]");
 }
-int AmountHonestNumb(int[] array)
+int AmountHonestNumb(int[] array, int min, int max)
 {
     int counter = default;
     for (int i = 0; i < array.Length; i++)
@@ -32,8 +32,8 @@ int AmountHonestNumb(int[] array)
     }
     return counter;
 }
-int[] arr = CreateArrayRndInt(20, 0, 50);
+int[] arr = CreateArrayRndInt(20, 100, 1000);
 PrintArray(arr);
-int amountHonestNumb = AmountHonestNumb(arr);
+int amountHonestNumb = AmountHonestNumb(arr, 100, 1000);
 Console.WriteLine($"Количество четных числе в массиве => {amountHonestNumb}");
 
