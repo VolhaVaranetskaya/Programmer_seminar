@@ -16,7 +16,7 @@ double k2 = Convert.ToInt32(Console.ReadLine());
     double x = (b2 - b1) / (k1 - k2);
     double y = (k1 * x) + b1;
     if (x == y) Console.WriteLine($"Прямые имеют точку пересечения с координатами ({x}; {y})");
-    else Console.WriteLine($"Прямые с координатами ({x}; {y}) являются параллельными");
+    else Console.WriteLine($"Прямые с координатами ({x}; {y}) являются параллельными"); 
 }
 
 
