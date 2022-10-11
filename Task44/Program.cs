@@ -22,3 +22,15 @@ void PrintFibonacci(int num)
         secondNum = nextNum;
     }
 }
+
+//  Решение  с помощью рекурсии
+
+// int number = 13;
+// DecToBin(number);
+
+// void DecToBin(int num)
+// {
+//     if(num == 0) return;
+//     DecToBin(num / 2);
+//     Console.Write(num % 2);
+// }
