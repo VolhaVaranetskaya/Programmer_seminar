@@ -2,18 +2,18 @@
 // Найдите разницу между максимальным и минимальным элементами массива.
 // [3.5, 7.1, 22.9, 2.3, 78.5] -> 76.2
 
-int[] CreateArrayRndInt(int size, int min, int max)
+double[] CreateArrayRndInt(int size, int min, int max)
 {
-    int[] array = new int[size];
+    double[] array = new double[size];
     var rnd = new Random();
     for (int i = 0; i < size; i++)
     {
-        array[i] = rnd.Next(min, max);
+        array[i] = Math.Round(rnd.NextDouble(), 2);
     }
     return array;
 }
 
-void PrintArray(int[] array)
+void PrintArray(double[] array)
 {
     Console.Write("[");
     for (int i = 0; i < array.Length; i++)
@@ -23,10 +23,11 @@ void PrintArray(int[] array)
     }
     Console.Write("]");
 }
-int[] RealNumberDiff(int[] array)
+
+double[] RealNumberDiff(double[] array)
 {
-    int maxNumber = default;
-    int minNumber = array[0];
+    double maxNumber = default;
+    double minNumber = array[0];
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i] > maxNumber)
@@ -38,12 +39,12 @@ int[] RealNumberDiff(int[] array)
         minNumber = array[i];
     } 
     }
-    return new int[] {maxNumber, minNumber};
+    return new double[] {maxNumber, minNumber};
 }
-int[] arr = CreateArrayRndInt(5, 1, 10);
+double[] arr = CreateArrayRndInt(10, 10, 100);
 PrintArray(arr);
-int[] realNumberDiff = RealNumberDiff(arr);
+double[] realNumberDiff = RealNumberDiff(arr);
 PrintArray(realNumberDiff);
-int result = realNumberDiff[0] - realNumberDiff[1];
+double result = Math.Round(realNumberDiff[0] - realNumberDiff[1], 2);
 Console.WriteLine($"Разница между максимальным и минимальным элементами массива => {result} ");
 Console.WriteLine();
