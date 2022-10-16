@@ -14,7 +14,7 @@ int m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите индекс столбца");
 int n = Convert.ToInt32(Console.ReadLine());
 int[,] matrix = CreateMatrixRndInt(4, 4);
-PrintMatrix(matrix);
+// PrintMatrix(matrix);
 ShowElemMatrix(matrix);
 
 void ShowElemMatrix(int[,] matrix)
