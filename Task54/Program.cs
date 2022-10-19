@@ -45,19 +45,19 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-void SortingElemDescending(int[,] numbers)
+void SortingElemDescending(int[,] matrix)
 {
-    for (int i = 0; i < numbers.GetLength(0); i++)
+    for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        for (int j = 0; j < numbers.GetLength(1); j++)
+        for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            for (int k = 0; k < numbers.GetLength(1) - 1; k++)
+            for (int k = 0; k < matrix.GetLength(1) - 1; k++)
             {
-                if (numbers[i, k] < numbers[i, k + 1])
+                if (matrix[i, k] < matrix[i, k + 1])
                 {
-                    int temp = numbers[i, k + 1];
-                    numbers[i, k + 1] = numbers[i, k];
-                    numbers[i, k] = temp;
+                    int temp = matrix[i, k + 1];
+                    matrix[i, k + 1] = matrix[i, k];
+                    matrix[i, k] = temp;
                 }
             }
         }
