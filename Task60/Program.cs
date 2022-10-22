@@ -52,12 +52,12 @@ void PrintMatrix3D(int[,,] matrix)
     }
 }
 
-bool NumberInMatrix(int[] matrix, int num)
+bool NumberInMatrix(int[] array, int num)
 {
     bool result = false;
-    for (int i = 0; i < matrix.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        if (matrix[i] == num)
+        if (array[i] == num)
         {
             result = true;
             break;
