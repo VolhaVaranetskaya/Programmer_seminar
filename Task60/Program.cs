@@ -6,7 +6,7 @@
 // 27(0,0,1) 90(0,1,1)
 // 26(1,0,1) 55(1,1,1)
 
-int[,,] matrix3D = Create3DMatrixRndInt(2, 2, 2, 0, 50);
+int[,,] matrix3D = Create3DMatrixRndInt(2, 2, 2, 10, 100);
 PrintMatrix3D(matrix3D);
 Console.WriteLine();
 
